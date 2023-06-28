@@ -15,7 +15,7 @@ contract HypeToon is ERC20, Ownable
 {
 	using SafeERC20 for IERC20;
 
-	uint256 public constant TOTAL_SUPPLY_LIMIT = 2000000000;
+	uint256 public constant TOTAL_SUPPLY_LIMIT = 2000000000000000000000000000;
 
 	//---------------------------------------------------------------
 	// Events
